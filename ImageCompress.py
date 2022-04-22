@@ -5,6 +5,7 @@ from PIL import Image
 dst_dir = 'data/temp/images_compressd'
 os.makedirs(dst_dir, exist_ok=True)
 
+#圧縮したい拡張子を入力
 files = glob.glob('./data/temp/images/*.png')
 
 for f in files:
